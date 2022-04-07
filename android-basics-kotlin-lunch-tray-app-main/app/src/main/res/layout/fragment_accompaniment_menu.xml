@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?><!--
+
+/**
+ * Gavin Ogren
+ * 4/6/2022
+ * Lunch Tray Application: Using Kotlin and Android Studio I created a application that takes
+ * menu items and displays the price.
+ */
+
   ~ Copyright (C) 2021 The Android Open Source Project.
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");

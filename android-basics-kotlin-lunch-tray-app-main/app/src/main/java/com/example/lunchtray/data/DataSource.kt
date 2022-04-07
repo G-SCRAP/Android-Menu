@@ -13,14 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+/**
+ * Gavin Ogren
+ * 4/6/2022
+ * Lunch Tray Application: Using Kotlin and Android Studio I created a application that takes
+ * menu items and displays the price.
+ */
+
 package com.example.lunchtray.data
 
 import com.example.lunchtray.constants.ItemType
 import com.example.lunchtray.model.MenuItem
 
-/**
- * Map of available menu items to be displayed in the menu fragments.
- */
+// So I didn't change any variables that were names and callings but I changed the attributes of it.
 object DataSource {
     val menuItems = mapOf(
         "cauliflower" to
@@ -33,7 +39,7 @@ object DataSource {
         "chili" to
                 MenuItem(
                     name = "Meat Lovers Pizza",
-                    description = "Cooked and crumbled with your choice Italian sausage or ground beef, bacon, pepperoni and sliced ham",
+                    description = "Cooked and crumbled with your choice Italian sausage or ground beef, bacon, pepperoni and sliced ham.",
                     price = 14.00,
                     type = ItemType.ENTREE
                 ),
@@ -46,7 +52,7 @@ object DataSource {
                 ),
         "skillet" to
                 MenuItem(
-                    name = "Philly Cheese Steak pizza",
+                    name = "Philly Cheese Steak Pizza",
                     description = "Instead of a tomato sauce we use three types of cheese: mozzarella, provolone and American. Toppings include sautéed onions, mushrooms and bell peppers. Of course, you can't forget tender slices of steak sliced thin!",
                     price = 15.50,
                     type = ItemType.ENTREE

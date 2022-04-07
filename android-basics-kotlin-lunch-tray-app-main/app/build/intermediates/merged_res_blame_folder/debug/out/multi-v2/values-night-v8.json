@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\gogre927\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\gogre927\\Desktop\\Android-Menu-main\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\gogre927\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "11",
-                        "endColumns": "12",
-                        "endOffsets": "653"
-                    },
-                    "to": {
-                        "startLines": "9",
-                        "startColumns": "4",
-                        "startOffsets": "732",
-                        "endLines": "18",
-                        "endColumns": "12",
-                        "endOffsets": "1283"
-                    }
-                },
                 {
                     "source": "C:\\Users\\gogre927\\.gradle\\caches\\transforms-2\\files-2.1\\2fcd5f5bc5470d3e1382d32c580bf2ad\\appcompat-1.2.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
@@ -37,6 +18,25 @@
                         "startOffsets": "100,170,254,338,434,536,638,3150",
                         "endColumns": "69,83,83,95,101,101,93,88",
                         "endOffsets": "165,249,333,429,531,633,727,3234"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\gogre927\\Desktop\\Android-Menu-main\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "653"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "732",
+                        "endLines": "18",
+                        "endColumns": "12",
+                        "endOffsets": "1283"
                     }
                 },
                 {

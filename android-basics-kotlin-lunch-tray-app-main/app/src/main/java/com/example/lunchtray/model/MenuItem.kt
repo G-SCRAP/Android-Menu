@@ -18,23 +18,17 @@ package com.example.lunchtray.model
 /**
  * Gavin Ogren
  * 4/6/2022
- * Lunch Tray Appplication: Using Kotlin and Android Studio I created a application that takes
+ * Lunch Tray Application: Using Kotlin and Android Studio I created a application that takes
  * menu items and displays the price.
  */
 import java.text.NumberFormat
-
-/**
- * Data class for menu items
- */
+//Menu Items
 data class MenuItem(
     val name: String,
     val description: String,
     var price: Double,
     val type: Int
 ) {
-    /**
-     * Getter method for price.
-     * Includes formatting.
-     */
+    //Function Gets the formatted Price
     fun getFormattedPrice(): String = NumberFormat.getCurrencyInstance().format(price)
 }

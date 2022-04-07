@@ -45,36 +45,36 @@ class MenuContentTests : BaseTest() {
         launchFragmentInContainer<EntreeMenuFragment>(themeResId = R.style.Theme_LunchTray)
 
         // Check the cauliflower item
-        onView(withId(R.id.cauliflower))
-            .check(matches(withText(containsString("Cauliflower"))))
+        onView(withId(R.id.Cauliflower))
+            .check(matches(withText(containsString("New York-Style Pizza"))))
         onView(withId(R.id.cauliflower_description))
-            .check(matches(withText(containsString("Whole cauliflower"))))
+            .check(matches(withText(containsString("Our World Famous Pizza ready to be enjoyed! Includes Pepperoni and Cheese and delicious homemade bread."))))
         onView(withId(R.id.cauliflower_price))
-            .check(matches(withText(containsString("$7.00"))))
+            .check(matches(withText(containsString("$16.00"))))
 
         // Check the chili item
         onView(withId(R.id.chili))
-            .check(matches(withText(containsString("Three Bean Chili"))))
+            .check(matches(withText(containsString("Meat Lovers Pizza"))))
         onView(withId(R.id.chili_description))
-            .check(matches(withText(containsString("Black beans"))))
+            .check(matches(withText(containsString("Cooked and crumbled with your choice Italian sausage or ground beef, bacon, pepperoni and sliced ham."))))
         onView(withId(R.id.chili_price))
-            .check(matches(withText(containsString("$4.00"))))
+            .check(matches(withText(containsString("$14.00"))))
 
         // Check the pasta item
         onView(withId(R.id.pasta))
-            .check(matches(withText(containsString("Mushroom Pasta"))))
+            .check(matches(withText(containsString("California Pizza"))))
         onView(withId(R.id.pasta_description))
-            .check(matches(withText(containsString("Penne pasta"))))
+            .check(matches(withText(containsString("Thin-crust pizza noted for its fresh, nontraditional toppings, such as chicken, peanut sauce, artichoke hearts, and goat cheese."))))
         onView(withId(R.id.pasta_price))
-            .check(matches(withText(containsString("$5.50"))))
+            .check(matches(withText(containsString("15.50"))))
 
         // Check the skillet item
         onView(withId(R.id.skillet))
-            .check(matches(withText(containsString("Spicy Black Bean"))))
+            .check(matches(withText(containsString("Philly Cheese Steak Pizza"))))
         onView(withId(R.id.skillet_description))
-            .check(matches(withText(containsString("Seasonal vegetables"))))
+            .check(matches(withText(containsString("Instead of a tomato sauce we use three types of cheese: mozzarella, provolone and American. Toppings include sautéed onions, mushrooms and bell peppers. Of course, you can't forget tender slices of steak sliced thin!"))))
         onView(withId(R.id.skillet_price))
-            .check(matches(withText(containsString("$5.50"))))
+            .check(matches(withText(containsString("15.50"))))
     }
 
     /**
@@ -93,15 +93,15 @@ class MenuContentTests : BaseTest() {
         onView(withId(R.id.salad))
             .check(matches(withText(containsString("Summer Salad"))))
         onView(withId(R.id.salad_description))
-            .check(matches(withText(containsString("Heirloom tomatoes"))))
+            .check(matches(withText(containsString("Heirloom tomatoes, butter lettuce, peaches, avocado, balsamic dressing"))))
         onView(withId(R.id.salad_price))
-            .check(matches(withText(containsString("$2.50"))))
+            .check(matches(withText(containsString("$5.00"))))
 
         // Check the soup item
         onView(withId(R.id.soup))
-            .check(matches(withText(containsString("Butternut Squash"))))
+            .check(matches(withText(containsString("2 liter Soda of the day"))))
         onView(withId(R.id.soup_description))
-            .check(matches(withText(containsString("Roasted butternut squash"))))
+            .check(matches(withText(containsString("Homemade Mountain Dew"))))
         onView(withId(R.id.soup_price))
             .check(matches(withText(containsString("$3.00"))))
 
@@ -111,15 +111,15 @@ class MenuContentTests : BaseTest() {
         onView(withId(R.id.potato_description))
             .check(matches(withText(containsString("Marble potatoes"))))
         onView(withId(R.id.potato_price))
-            .check(matches(withText(containsString("$2.00"))))
+            .check(matches(withText(containsString("$6.00"))))
 
         // Check the rice item
         onView(withId(R.id.rice))
-            .check(matches(withText(containsString("Coconut Rice"))))
+            .check(matches(withText(containsString("Breadsticks"))))
         onView(withId(R.id.rice_description))
-            .check(matches(withText(containsString("Rice, coconut milk"))))
+            .check(matches(withText(containsString("The stuff is addictive, which explains why so many people are asking for the recipe. Note: Contains Milk"))))
         onView(withId(R.id.rice_price))
-            .check(matches(withText(containsString("$1.50"))))
+            .check(matches(withText(containsString("$3.50"))))
     }
 
     /**
@@ -152,9 +152,9 @@ class MenuContentTests : BaseTest() {
 
         // Check the pickle item
         onView(withId(R.id.pickles))
-            .check(matches(withText(containsString("Pickled Veggies"))))
+            .check(matches(withText(containsString("Homemade Ranch"))))
         onView(withId(R.id.pickles_description))
-            .check(matches(withText(containsString("Pickled cucumbers"))))
+            .check(matches(withText(containsString("Creamy and non watery homemade ranch"))))
         onView(withId(R.id.pickles_price))
             .check(matches(withText(containsString("$0.50"))))
     }

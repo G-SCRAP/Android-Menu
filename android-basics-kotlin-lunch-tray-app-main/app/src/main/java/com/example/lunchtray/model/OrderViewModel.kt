@@ -34,7 +34,7 @@ class OrderViewModel : ViewModel() {
 
     // A bunch of variables declared:
 
-    // Map of menu items
+    // menu items
     val menuItems = DataSource.menuItems
 
     // Default values for item prices
@@ -42,55 +42,52 @@ class OrderViewModel : ViewModel() {
     private var previousSidePrice = 0.0
     private var previousAccompanimentPrice = 0.0
 
-    // Default tax rate
+    // The tax rate
     private val taxRate = 0.08
 
-    // Entree for the order
+    // Entree
     private val _entree = MutableLiveData<MenuItem?>()
     val entree: LiveData<MenuItem?> = _entree
 
 
-    // Side for the order
+    // Side
     private val _side = MutableLiveData<MenuItem?>()
     val side: LiveData<MenuItem?> = _side
 
-    // Accompaniment for the order.
+    // Accompaniment
     private val _accompaniment = MutableLiveData<MenuItem?>()
     val accompaniment: LiveData<MenuItem?> = _accompaniment
 
-    // Subtotal for the order
+    // Subtotal
     private val _subtotal = MutableLiveData(0.0)
     val subtotal: LiveData<String> = Transformations.map(_subtotal) {
         NumberFormat.getCurrencyInstance().format(it)
     }
 
-    // Total cost of the order
+    // Total cost
     private val _total = MutableLiveData(0.0)
     val total: LiveData<String> = Transformations.map(_total) {
         NumberFormat.getCurrencyInstance().format(it)
     }
 
-    // Tax for the order
+    // Tax
     private val _tax = MutableLiveData(0.0)
     val tax: LiveData<String> = Transformations.map(_tax) {
         NumberFormat.getCurrencyInstance().format(it)
     }
 
-    /**
-     * Set the entree for the order.
-     */
     fun setEntree(entree: String) {
 
         // The functions saves the selected entree information including price and name values
         // and stores it inside a local variable.
 
 
-        // if _entree.value is not null, set the previous entree price to the current entree price.
+        // Makes sure user cannot spam multiple items in the menu
         if (_entree.value != null) {
             previousEntreePrice = _entree.value?.price ?: 0.0
         }
 
-        // if _subtotal.value is not null subtract the previous entree price from the current
+        // Makes sure user cannot spam multiple items in the menu
         if (_subtotal.value != null) {
             _subtotal.value = (_subtotal.value ?: 0.0) - previousEntreePrice
         }
@@ -102,41 +99,46 @@ class OrderViewModel : ViewModel() {
         updateSubtotal(menuItems[entree]?.price ?: 0.0)
     }
 
-    /**
-     * Set the side for the order.
-     */
+
     fun setSide(side: String) {
 
         // The functions saves the selected side information including price and name values
         // and stores it inside a local variable.
 
 
-        // if _side.value is not null, set the previous side price to the current side price.
-        previousEntreePrice = _side.value?.price ?: 0.0
-        //  if _subtotal.value is not null subtract the previous side price from the current
-        //  subtotal value. This ensures that we only charge for the currently selected side.
-        _subtotal.value = (_subtotal.value ?: 0.0) - previousSidePrice
+        // Makes sure user cannot spam multiple items in the menu
+        if (_side.value != null) {
+            previousSidePrice = _side.value?.price ?: 0.0
+
+        }
+
+        // Makes sure user cannot spam multiple items in the menu
+        if (_subtotal.value != null) {
+            _subtotal.value = (_subtotal.value ?: 0.0) - previousSidePrice
+        }
+
         // set the current side value to the menu item corresponding to the passed in string
         _side.value = menuItems[side]
         // updates the subtotal to reflect the price of the selected side.
         updateSubtotal(menuItems[side]?.price ?: 0.0)
     }
 
-    /**
-     * Set the accompaniment for the order.
-     */
     fun setAccompaniment(accompaniment: String) {
 
         // The functions saves the selected Accompaniment information including price and name values
         // and stores it inside a local variable.
 
-        //  if _accompaniment.value is not null, set the previous accompaniment price to the
-        //  current accompaniment price.
-        previousAccompanimentPrice = _side.value?.price ?: 0.0
-        //  if _accompaniment.value is not null subtract the previous accompaniment price from
-        //  the current subtotal value. This ensures that we only charge for the currently selected
-        //  accompaniment.
-        _subtotal.value = (_subtotal.value ?: 0.0) - previousAccompanimentPrice
+        // Makes sure user cannot spam multiple items in the menu
+        if (_accompaniment.value != null) {
+            previousAccompanimentPrice = _accompaniment.value?.price ?: 0.0
+        }
+
+        // Makes sure user cannot spam multiple items in the menu
+        if (_subtotal.value != null) {
+            _subtotal.value = (_subtotal.value ?: 0.0) - previousAccompanimentPrice
+
+        }
+
 
         // set the current accompaniment value to the menu item corresponding to the passed in
         //  string
@@ -145,11 +147,8 @@ class OrderViewModel : ViewModel() {
         updateSubtotal(menuItems[accompaniment]?.price ?: 0.0)
     }
 
-    /**
-     * Update subtotal value.
-     */
     private fun updateSubtotal(itemPrice: Double) {
-        //Updates the subtotal of chosen radiobutton and saves it.
+        //Updates the subtotal of chosen radiobutton and saves the amount.
         // Calls the Calculate Tax Function
 
         if (_subtotal.value != null) {
@@ -157,14 +156,9 @@ class OrderViewModel : ViewModel() {
         } else {
             _subtotal.value = itemPrice
         }
-
-
         calculateTaxAndTotal()
     }
 
-    /**
-     * Calculate tax and update total.
-     */
     fun calculateTaxAndTotal() {
         //Tax rate was defined above and based on that rate
         // The code takes the subtotal and multiplies it together
@@ -173,9 +167,6 @@ class OrderViewModel : ViewModel() {
         _total.value = (_subtotal.value)?.plus(_tax.value ?: 0.0)
     }
 
-    /**
-     * Reset all values pertaining to the order.
-     */
     fun resetOrder() {
         // Reset all values associated with an order
         // This is only called at the end of a order or if

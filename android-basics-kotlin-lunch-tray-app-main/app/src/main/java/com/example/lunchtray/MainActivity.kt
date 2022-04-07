@@ -17,7 +17,7 @@
 /**
  * Gavin Ogren
  * 4/6/2022
- * Lunch Tray Appplication: Using Kotlin and Android Studio I created a application that takes
+ * Lunch Tray Application: Using Kotlin and Android Studio I created a application that takes
  * menu items and displays the price.
  */
 package com.example.lunchtray
@@ -30,13 +30,13 @@ import com.example.lunchtray.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    // Binding object instance corresponding to the activity_main.xml layout
-    // when the view hierarchy is attached to the fragment.
+    // Binding and nav conrtoller variables created
     private lateinit var binding: ActivityMainBinding
     private lateinit var navController: NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // Runs the fragments and Overrides MainActivity
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }

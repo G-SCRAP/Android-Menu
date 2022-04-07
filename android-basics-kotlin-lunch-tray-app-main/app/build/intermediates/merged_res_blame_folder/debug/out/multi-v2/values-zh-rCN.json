@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\gogre927\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
+            "outputFile": "C:\\Users\\gogre927\\Desktop\\Android-Menu-main\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\gogre927\\.gradle\\caches\\transforms-2\\files-2.1\\e9e71158f84cf6cf3ea1d2043ac7ae1e\\material-1.3.0\\res\\values-zh-rCN\\values-zh-rCN.xml",

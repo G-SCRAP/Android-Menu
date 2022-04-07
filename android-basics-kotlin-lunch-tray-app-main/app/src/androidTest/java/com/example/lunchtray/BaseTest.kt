@@ -28,7 +28,7 @@ open class BaseTest {
         // Start order
         onView(withId(R.id.start_order_btn)).perform(click())
         // Select entree item
-        onView(withId(R.id.cauliflower)).perform(click())
+        onView(withId(R.id.Cauliflower)).perform(click())
         // Move to next fragment
         onView(withId(R.id.next_button)).perform(click())
         // Select side item

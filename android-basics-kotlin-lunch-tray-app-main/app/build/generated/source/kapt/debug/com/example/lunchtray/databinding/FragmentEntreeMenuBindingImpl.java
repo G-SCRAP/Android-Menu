@@ -42,8 +42,8 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
     }
     private FragmentEntreeMenuBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
-            , (android.widget.Button) bindings[14]
             , (android.widget.RadioButton) bindings[1]
+            , (android.widget.Button) bindings[14]
             , (android.widget.TextView) bindings[2]
             , (android.widget.TextView) bindings[3]
             , (android.widget.RadioButton) bindings[4]
@@ -60,8 +60,8 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
             , (android.widget.TextView) bindings[12]
             , (android.widget.TextView) bindings[13]
             );
+        this.Cauliflower.setTag(null);
         this.cancelButton.setTag(null);
-        this.cauliflower.setTag(null);
         this.cauliflowerDescription.setTag(null);
         this.cauliflowerPrice.setTag(null);
         this.chili.setTag(null);
@@ -263,8 +263,8 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
         if ((dirtyFlags & 0x8L) != 0) {
             // api target 1
 
+            this.Cauliflower.setOnClickListener(mCallback14);
             this.cancelButton.setOnClickListener(mCallback18);
-            this.cauliflower.setOnClickListener(mCallback14);
             this.chili.setOnClickListener(mCallback15);
             this.nextButton.setOnClickListener(mCallback19);
             this.pasta.setOnClickListener(mCallback16);
@@ -273,7 +273,7 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
         if ((dirtyFlags & 0xcL) != 0) {
             // api target 1
 
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.cauliflower, viewModelMenuItemsCauliflowerName);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.Cauliflower, viewModelMenuItemsCauliflowerName);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.cauliflowerDescription, viewModelMenuItemsCauliflowerDescription);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.cauliflowerPrice, viewModelMenuItemsCauliflowerGetFormattedPrice);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.chili, viewModelMenuItemsChiliName);

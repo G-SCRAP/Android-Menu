@@ -21,10 +21,10 @@ import java.lang.Object;
 
 public abstract class FragmentEntreeMenuBinding extends ViewDataBinding {
   @NonNull
-  public final Button cancelButton;
+  public final RadioButton Cauliflower;
 
   @NonNull
-  public final RadioButton cauliflower;
+  public final Button cancelButton;
 
   @NonNull
   public final TextView cauliflowerDescription;
@@ -78,14 +78,14 @@ public abstract class FragmentEntreeMenuBinding extends ViewDataBinding {
   protected EntreeMenuFragment mEntreeFragment;
 
   protected FragmentEntreeMenuBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button cancelButton, RadioButton cauliflower, TextView cauliflowerDescription,
+      RadioButton Cauliflower, Button cancelButton, TextView cauliflowerDescription,
       TextView cauliflowerPrice, RadioButton chili, TextView chiliDescription, TextView chiliPrice,
       View divider, RadioGroup entreeOptions, Button nextButton, RadioButton pasta,
       TextView pastaDescription, TextView pastaPrice, RadioButton skillet,
       TextView skilletDescription, TextView skilletPrice, TextView subtotal) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.Cauliflower = Cauliflower;
     this.cancelButton = cancelButton;
-    this.cauliflower = cauliflower;
     this.cauliflowerDescription = cauliflowerDescription;
     this.cauliflowerPrice = cauliflowerPrice;
     this.chili = chili;

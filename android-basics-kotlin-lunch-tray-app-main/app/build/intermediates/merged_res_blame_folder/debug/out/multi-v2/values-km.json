@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\gogre927\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km\\values-km.xml",
+            "outputFile": "C:\\Users\\gogre927\\Desktop\\Android-Menu-main\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km\\values-km.xml",
             "map": [
                 {
                     "source": "C:\\Users\\gogre927\\.gradle\\caches\\transforms-2\\files-2.1\\349045e3f0b799fb6281204b33355d6e\\core-1.3.2\\res\\values-km\\values-km.xml",

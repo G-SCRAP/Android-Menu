@@ -17,7 +17,7 @@ package com.example.lunchtray.constants
 /**
  * Gavin Ogren
  * 4/6/2022
- * Lunch Tray Appplication: Using Kotlin and Android Studio I created a application that takes
+ * Lunch Tray Application: Using Kotlin and Android Studio I created a application that takes
  * menu items and displays the price.
  */
 /**

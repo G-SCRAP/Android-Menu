@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\gogre927\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\gogre927\\Desktop\\Android-Menu-main\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\gogre927\\.gradle\\caches\\transforms-2\\files-2.1\\42a6b9593a37a120317cb9b144495103\\savedstate-1.1.0\\res\\values\\values.xml",
@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\gogre927\\Desktop\\Android-Menu-main\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "17,18,20,22,21,19",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "725,783,882,975,924,839",
+                        "endColumns": "57,55,41,50,50,42",
+                        "endOffsets": "778,834,919,1021,970,877"
+                    },
+                    "to": {
+                        "startLines": "592,593,595,599,899,900",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "32207,32265,32386,32598,52457,52508",
+                        "endColumns": "57,55,41,50,50,42",
+                        "endOffsets": "32260,32316,32423,32644,52503,52546"
+                    }
+                },
+                {
                     "source": "C:\\Users\\gogre927\\.gradle\\caches\\transforms-2\\files-2.1\\3124ec8e5b73449ada5fc05e20890efa\\coordinatorlayout-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,6,16",
@@ -37,23 +54,6 @@
                         "endLines": "50,4967,6360,6449",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "2554,327465,414698,419909"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\gogre927\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "17,18,20,22,21,19",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "725,783,882,975,924,839",
-                        "endColumns": "57,55,41,50,50,42",
-                        "endOffsets": "778,834,919,1021,970,877"
-                    },
-                    "to": {
-                        "startLines": "592,593,595,599,899,900",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "32207,32265,32386,32598,52457,52508",
-                        "endColumns": "57,55,41,50,50,42",
-                        "endOffsets": "32260,32316,32423,32644,52503,52546"
                     }
                 },
                 {
@@ -95,6 +95,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\gogre927\\Desktop\\Android-Menu-main\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "20,24,23,17,18,19,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "833,997,957,692,739,786,875,913",
+                        "endColumns": "41,39,39,46,46,46,37,43",
+                        "endOffsets": "870,1032,992,734,781,828,908,952"
+                    },
+                    "to": {
+                        "startLines": "405,412,462,496,497,498,499,510",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "19645,20213,23586,25807,25854,25901,25948,26683",
+                        "endColumns": "41,39,39,46,46,46,37,43",
+                        "endOffsets": "19682,20248,23621,25849,25896,25943,25981,26722"
+                    }
+                },
+                {
                     "source": "C:\\Users\\gogre927\\.gradle\\caches\\transforms-2\\files-2.1\\149fd5397aacb056997d2024c6685624\\cardview-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,35,36,37,38,45,47,50,7",
@@ -111,25 +128,6 @@
                         "endLines": "24,415,416,417,418,596,597,598,1210,3071,3074,3077,6018",
                         "endColumns": "51,60,61,61,63,58,56,53,12,12,12,12,24",
                         "endOffsets": "1181,20424,20486,20548,20612,32482,32539,32593,78144,200138,200264,200392,385101"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\gogre927\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "103,19,30,96,25,77,67,88,55,38,47",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4762,738,1161,4413,945,3440,2953,4030,2347,1579,1990",
-                        "endLines": "103,22,35,101,27,85,74,93,64,44,52",
-                        "endColumns": "41,12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "4799,911,1531,4756,1123,3983,3383,4380,2895,1942,2294"
-                    },
-                    "to": {
-                        "startLines": "1074,3563,4219,4224,4230,4233,4241,4248,4943,4953,4959",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "63078,235147,280478,280845,281193,281376,281916,282343,326103,326656,327016",
-                        "endLines": "1074,3565,4223,4229,4232,4240,4247,4253,4952,4958,4964",
-                        "endColumns": "41,12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "63115,235312,280840,281188,281371,281911,282338,282693,326651,327011,327320"
                     }
                 },
                 {
@@ -168,6 +166,25 @@
                         "endLines": "75,77,608,6475",
                         "endColumns": "55,47,51,24",
                         "endOffsets": "3572,3665,33239,421781"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\gogre927\\Desktop\\Android-Menu-main\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "737",
+                        "endLines": "27",
+                        "endColumns": "12",
+                        "endOffsets": "1315"
+                    },
+                    "to": {
+                        "startLines": "3718",
+                        "startColumns": "4",
+                        "startOffsets": "244385",
+                        "endLines": "3728",
+                        "endColumns": "12",
+                        "endOffsets": "244961"
                     }
                 },
                 {
@@ -223,23 +240,6 @@
                         "startOffsets": "25130,52551,52604,52657,52710,232631,232807,232929,233191,233386",
                         "endColumns": "88,52,52,52,52,65,121,60,65,66",
                         "endOffsets": "25214,52599,52652,52705,52758,232692,232924,232985,233252,233448"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\gogre927\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "16,38,27,28,23,29,30,24,25,17,21,22,18,19,20,32,33,34,35,36,26,31",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "653,1704,1211,1249,1025,1305,1353,1077,1127,700,905,973,751,801,855,1456,1492,1529,1568,1607,1167,1411",
-                        "endColumns": "46,69,37,55,51,47,57,49,39,50,67,51,49,53,49,35,36,38,38,38,43,44",
-                        "endOffsets": "695,1769,1244,1300,1072,1348,1406,1122,1162,746,968,1020,796,850,900,1487,1524,1563,1602,1641,1206,1451"
-                    },
-                    "to": {
-                        "startLines": "1070,1084,1140,1141,1148,1150,1151,1152,1153,1154,1155,1156,1157,1158,1159,1160,1161,1162,1163,1164,1165,1166",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "62512,64013,73274,73312,74223,74346,74394,74452,74502,74542,74593,74661,74713,74763,74817,74867,74903,74940,74979,75018,75057,75101",
-                        "endColumns": "46,69,37,55,51,47,57,49,39,50,67,51,49,53,49,35,36,38,38,38,43,44",
-                        "endOffsets": "62554,64078,73307,73363,74270,74389,74447,74497,74537,74588,74656,74708,74758,74812,74862,74898,74935,74974,75013,75052,75096,75141"
                     }
                 },
                 {
@@ -310,6 +310,25 @@
                         "endLines": "5128,5135,5146,7584,7589",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "336849,337234,337831,486450,486720"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\gogre927\\Desktop\\Android-Menu-main\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "103,19,30,96,25,77,67,88,55,38,47",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4762,738,1161,4413,945,3440,2953,4030,2347,1579,1990",
+                        "endLines": "103,22,35,101,27,85,74,93,64,44,52",
+                        "endColumns": "41,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "4799,911,1531,4756,1123,3983,3383,4380,2895,1942,2294"
+                    },
+                    "to": {
+                        "startLines": "1074,3563,4219,4224,4230,4233,4241,4248,4943,4953,4959",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "63078,235147,280478,280845,281193,281376,281916,282343,326103,326656,327016",
+                        "endLines": "1074,3565,4223,4229,4232,4240,4247,4253,4952,4958,4964",
+                        "endColumns": "41,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "63115,235312,280840,281188,281371,281911,282338,282693,326651,327011,327320"
                     }
                 },
                 {
@@ -387,23 +406,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\gogre927\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "20,24,23,17,18,19,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "833,997,957,692,739,786,875,913",
-                        "endColumns": "41,39,39,46,46,46,37,43",
-                        "endOffsets": "870,1032,992,734,781,828,908,952"
-                    },
-                    "to": {
-                        "startLines": "405,412,462,496,497,498,499,510",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "19645,20213,23586,25807,25854,25901,25948,26683",
-                        "endColumns": "41,39,39,46,46,46,37,43",
-                        "endOffsets": "19682,20248,23621,25849,25896,25943,25981,26722"
-                    }
-                },
-                {
                     "source": "C:\\Users\\gogre927\\.gradle\\caches\\transforms-2\\files-2.1\\8d54d0f155660b8852decfc97d310be0\\navigation-fragment-2.3.5\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,6,9",
@@ -442,22 +444,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\gogre927\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\Users\\gogre927\\Desktop\\Android-Menu-main\\android-basics-kotlin-lunch-tray-app-main\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "17",
-                        "startColumns": "4",
-                        "startOffsets": "737",
-                        "endLines": "27",
-                        "endColumns": "12",
-                        "endOffsets": "1315"
+                        "startLines": "16,38,27,28,23,29,30,24,25,17,21,22,18,19,20,32,33,34,35,36,26,31",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "653,1704,1211,1249,1025,1305,1353,1077,1127,700,905,973,751,801,855,1456,1492,1529,1568,1607,1167,1411",
+                        "endColumns": "46,69,37,55,51,47,57,49,39,50,67,51,49,53,49,35,36,38,38,38,43,44",
+                        "endOffsets": "695,1769,1244,1300,1072,1348,1406,1122,1162,746,968,1020,796,850,900,1487,1524,1563,1602,1641,1206,1451"
                     },
                     "to": {
-                        "startLines": "3718",
-                        "startColumns": "4",
-                        "startOffsets": "244385",
-                        "endLines": "3728",
-                        "endColumns": "12",
-                        "endOffsets": "244961"
+                        "startLines": "1070,1084,1140,1141,1148,1150,1151,1152,1153,1154,1155,1156,1157,1158,1159,1160,1161,1162,1163,1164,1165,1166",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "62512,64013,73274,73312,74223,74346,74394,74452,74502,74542,74593,74661,74713,74763,74817,74867,74903,74940,74979,75018,75057,75101",
+                        "endColumns": "46,69,37,55,51,47,57,49,39,50,67,51,49,53,49,35,36,38,38,38,43,44",
+                        "endOffsets": "62554,64078,73307,73363,74270,74389,74447,74497,74537,74588,74656,74708,74758,74812,74862,74898,74935,74974,75013,75052,75096,75141"
                     }
                 },
                 {

@@ -47,24 +47,24 @@ class OrderFunctionalityTests : BaseTest() {
         launchFragmentInContainer<EntreeMenuFragment>(themeResId = R.style.Theme_LunchTray)
 
         // Select the cauliflower item
-        onView(withId(R.id.cauliflower)).perform(click())
+        onView(withId(R.id.Cauliflower)).perform(click())
         onView(withId(R.id.subtotal))
-            .check(matches(withText(containsString("Subtotal: $7.00"))))
+            .check(matches(withText(containsString("Subtotal: $16.00"))))
 
         // Select the chili item
         onView(withId(R.id.chili)).perform(click())
         onView(withId(R.id.subtotal))
-            .check(matches(withText(containsString("Subtotal: $4.00"))))
+            .check(matches(withText(containsString("Subtotal: $14.00"))))
 
         // Select the pasta item
         onView(withId(R.id.pasta)).perform(click())
         onView(withId(R.id.subtotal))
-            .check(matches(withText(containsString("Subtotal: $5.50"))))
+            .check(matches(withText(containsString("Subtotal: $15.50"))))
 
         // Select the skillet item
         onView(withId(R.id.skillet)).perform(click())
         onView(withId(R.id.subtotal))
-            .check(matches(withText(containsString("Subtotal: $5.50"))))
+            .check(matches(withText(containsString("Subtotal: $15.50"))))
     }
 
     /**
@@ -81,7 +81,7 @@ class OrderFunctionalityTests : BaseTest() {
         // Select the salad item
         onView(withId(R.id.salad)).perform(click())
         onView(withId(R.id.subtotal))
-            .check(matches(withText(containsString("Subtotal: $2.50"))))
+            .check(matches(withText(containsString("Subtotal: $5.00"))))
 
         // Select the soup item
         onView(withId(R.id.soup)).perform(click())
@@ -91,12 +91,12 @@ class OrderFunctionalityTests : BaseTest() {
         // Select the potato item
         onView(withId(R.id.potatoes)).perform(click())
         onView(withId(R.id.subtotal))
-            .check(matches(withText(containsString("Subtotal: $2.00"))))
+            .check(matches(withText(containsString("Subtotal: $6.00"))))
 
         // Select the rice item
         onView(withId(R.id.rice)).perform(click())
         onView(withId(R.id.subtotal))
-            .check(matches(withText(containsString("Subtotal: $1.50"))))
+            .check(matches(withText(containsString("Subtotal: $3.50"))))
     }
 
     /**
@@ -136,7 +136,7 @@ class OrderFunctionalityTests : BaseTest() {
         // Start order
         onView(withId(R.id.start_order_btn)).perform(click())
         // Select entree item
-        onView(withId(R.id.cauliflower)).perform(click())
+        onView(withId(R.id.Cauliflower)).perform(click())
         // We already have a test for a single menu item selection, so we don't need to check the
         // subtotal here.
         // Move to next fragment
@@ -189,7 +189,7 @@ class OrderFunctionalityTests : BaseTest() {
         // Start the order
         onView(withId(R.id.start_order_btn)).perform(click())
         // Select an item
-        onView(withId(R.id.cauliflower)).perform(click())
+        onView(withId(R.id.Cauliflower)).perform(click())
         // Cancel order
         onView(withId(R.id.cancel_button)).perform(click())
         // Start the order
@@ -208,7 +208,7 @@ class OrderFunctionalityTests : BaseTest() {
         // Start the order
         onView(withId(R.id.start_order_btn)).perform(click())
         // Select an item
-        onView(withId(R.id.cauliflower)).perform(click())
+        onView(withId(R.id.Cauliflower)).perform(click())
         // Move to side menu
         onView(withId(R.id.next_button)).perform(click())
         // Select an item
@@ -231,7 +231,7 @@ class OrderFunctionalityTests : BaseTest() {
         // Start the order
         onView(withId(R.id.start_order_btn)).perform(click())
         // Select an item
-        onView(withId(R.id.cauliflower)).perform(click())
+        onView(withId(R.id.Cauliflower)).perform(click())
         // Move to side menu
         onView(withId(R.id.next_button)).perform(click())
         // Select an item
